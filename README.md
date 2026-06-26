@@ -31,7 +31,7 @@ real passwords from data breaches. Hydra tried
 Wazuh detected thousands of 
 “Logon Failure” events in a matter of seconds.
 
-![Logon Failure](screenshots/Logon_Failure.jpg)
+![Logon Failure](screenshots/Logon%20Failure.jpg)
 
 **Key takeaway:** A brute-force attack is detectable by  
 an abnormal number of failed logins within 
@@ -50,7 +50,7 @@ to figure out where they are:
 
 Sysmon logged every action, and Wazuh generated alerts:
 
-![PowerShell Detection](screenshots/Discovery_via_PowerShell.jpg)
+![PowerShell Detection](screenshots/Discovery%20via%20PowerShell.jpg)
 
 One particularly interesting alert was “Powershell process 
 created an exec
@@ -61,7 +61,7 @@ with a severity level of 9. This was triggered by an obfuscated command.
 
 ## Wazuh Dashboard - The Big Picture
 
-![Dashboard](screenshots/Wazuh_Dashboard.jpg)
+![Dashboard](screenshots/Wazuh%20Dashboard.jpg)
 
 During the lab: 26 critical alerts, 
 1 medium, 84 low. The critical alerts were mainly from 
